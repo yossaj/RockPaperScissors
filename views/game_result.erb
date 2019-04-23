@@ -1,0 +1,14 @@
+<% if @result.include?('rock') %>
+<h1> <%=@result %></h1>
+<img src="/images/rock.png" alt="Rock">
+<% elsif @result.include?('paper')%>
+<h1> <%=@result %></h1>
+<img src="/images/paper.png" alt="Paper">
+<% elsif @result.include?('scissors')%>
+<h1> <%=@result %></h1>
+<img src="/images/scissors.png" alt="Scissors">
+<% else %>
+
+<h1> <%=@result %></h1>
+
+<% end %>

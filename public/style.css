@@ -1,0 +1,31 @@
+*{
+  border: 1px;
+  border-color: red;
+  margin: 0px;
+}
+
+h1{
+  margin: 5px;
+  color: black;
+  font-size: 5em;
+  padding: 30px;
+  background-color: white;
+  width: 60%;
+  align-self: center;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+}
+
+body{
+  background-color: white ;
+  margin: 30px;
+}
+
+img{
+  width: 200px;
+  display: inline-block;
+  float:left;
+
+}
